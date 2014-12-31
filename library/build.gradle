@@ -1,0 +1,6 @@
+apply plugin: 'android-library'
+
+android {
+    compileSdkVersion 'android-20'
+    buildToolsVersion '21.1.1'
+}

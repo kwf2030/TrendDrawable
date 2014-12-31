@@ -1,0 +1,21 @@
+apply plugin: 'android'
+
+dependencies {
+    compile project(':library')
+}
+
+android {
+    compileSdkVersion 'android-20'
+    buildToolsVersion '21.1.1'
+
+    buildTypes {
+        debug {
+            zipAlign true
+        }
+
+        release {
+            runProguard false
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}
