@@ -37,7 +37,6 @@ public class MainActivity extends Activity {
         ArrayList<Float> ret = new ArrayList<Float>();
         Random r = new Random();
         for (int i = 0; i < 10; i++) {
-            System.out.println(r.nextFloat());
             ret.add(r.nextFloat() * 100 - 50);
         }
         return ret;
