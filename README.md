@@ -16,12 +16,14 @@ An android trend drawable. _Usually for stock/fund profit trend etc._
 
 #### Options
 
-In the above step2, after a `TrendDrawable` instance created, you can set a few options(color/size)
+In step2 above, after a `TrendDrawable` instance created, you can set a few options(color/size):
 
 `TrendDrawable.setColors()`, see `TrendDrawable.Colors` class for details.
+
 `TrendDrawable.setSizes()`, see `TrendDrawable.Sizes` class for details.
 
 _This drawable's animation requires android 3.0(api 11) and later, if you want to use on earlier versions, add [NineOldAndroids](https://github.com/JakeWharton/NineOldAndroids) library as dependency and replace the following imports:_
 
-_`android.animation.Animator` --> `com.nineoldandroids.animation.Animator`_
-_`android.animation.ObjectAnimator` --> `com.nineoldandroids.animation.ObjectAnimator`_
+`android.animation.Animator --> com.nineoldandroids.animation.Animator`
+
+`android.animation.ObjectAnimator --> com.nineoldandroids.animation.ObjectAnimator`
